@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<UserConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <solutionFiles>
+    <solutionPath>.\src\cs\Power\Power.sln</solutionPath>
+    <compilationOutputFolder>.\output\CSharpCompilation\Power_SLN</compilationOutputFolder>
+    <executableProject>Power</executableProject>
+  </solutionFiles>
+  <criteria>
+    <lines>
+      <FileLine>
+        <file>Power.cs</file>
+        <line>90</line>
+      </FileLine>
+      <FileLine>
+        <file>Power.cs</file>
+        <line>91</line>
+      </FileLine>
+      <FileLine>
+        <file>Power.cs</file>
+        <line>92</line>
+      </FileLine>
+      <FileLine>
+        <file>Power.cs</file>
+        <line>93</line>
+      </FileLine>
+    </lines>
+    <mode>Normal</mode>
+    <runAutomatically>true</runAutomatically>
+    <fileTraceInput>true</fileTraceInput>
+  </criteria>
+  <results>
+    <name>Power</name>
+    <outputFolder>output\DynAbsResults\Clusters</outputFolder>
+    <executedLinesFileForUser>ExecutedLines.txt</executedLinesFileForUser>
+    <executedLinesFileWithoutHeadersForUser>ExecutedLinesWithoutHeadersForUser.txt</executedLinesFileWithoutHeadersForUser>
+    <executionCounters>ExecutionCounters.txt</executionCounters>
+    <resultFile>Results.txt</resultFile>
+    <filteredResultFile>FilteredResults.txt</filteredResultFile>
+    <printGraphForEachStatement>false</printGraphForEachStatement>
+    <summaryResultFile>Summary.txt</summaryResultFile>
+    <logMethodsCalls>false</logMethodsCalls>
+    <skippedFilesInfo>SkippedFilesInfo.txt</skippedFilesInfo>
+  </results>
+  <customization>
+    <includeControlDependencies>true</includeControlDependencies>
+    <includeAllUses>true</includeAllUses>
+    <staticMode>false</staticMode>
+    <loopsOptimization>false</loopsOptimization>
+    <memoryModel>Clusters</memoryModel>
+  </customization>
+  <instances>
+    <Instance>
+      <parameters>
+        <string>-f 3</string>
+        <string>-l 3</string>
+        <string>-b 2</string>
+        <string>-e 1</string>
+      </parameters>
+    </Instance>
+  </instances>
+</UserConfiguration>

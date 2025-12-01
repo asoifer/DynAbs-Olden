@@ -1,0 +1,1239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Summaries>
+  <Tests.Cases.Solver>
+    <UntilTypeA_ExternalClass>
+      <Methods>
+        <UpdateFieldYOfTypeB>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{}.{P.*.UntilType{B}.OfType{B}.y}.{}</Annotation>
+        </UpdateFieldYOfTypeB>
+      </Methods>
+    </UntilTypeA_ExternalClass>
+  </Tests.Cases.Solver>
+  <System>
+    <Enum>
+      <Methods>
+        <AnnotationType>Predefined</AnnotationType>
+        <Annotation>BasicScalarSystemCall</Annotation>
+      </Methods>
+    </Enum>
+    <Environment>
+      <Methods>
+        <AnnotationType>Predefined</AnnotationType>
+        <Annotation>BasicScalarSystemCall</Annotation>
+      </Methods>
+    </Environment>
+    <Console>
+      <Methods>
+        <AnnotationType>Predefined</AnnotationType>
+        <Annotation>BasicScalarSystemCall</Annotation>
+      </Methods>
+      <Properties>
+        <AnnotationType>Predefined</AnnotationType>
+        <Annotation>BasicScalarSystemProperty</Annotation>
+      </Properties>
+    </Console>
+    <Object>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{}.{RV.?}.{}</Annotation>
+        </ctor>
+        <ToString>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R}.{}.{}</Annotation>
+        </ToString>
+		<GetHashCode>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R}.{}.{}</Annotation>
+        </GetHashCode>
+        <ReferenceEquals>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;P}.{}.{}</Annotation>
+        </ReferenceEquals>
+        <GetType>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{R}.{RV.?}.{}</Annotation>
+        </GetType>
+      </Methods>
+    </Object>
+    <String>
+      <Methods>
+        <AnnotationType>Predefined</AnnotationType>
+        <Annotation>BasicScalarSystemCall</Annotation>
+        <IsNullOrEmpty>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;P}.{}.{}</Annotation>
+        </IsNullOrEmpty>
+      </Methods>
+    </String>
+    <Int32>
+      <Methods>
+        <AnnotationType>Predefined</AnnotationType>
+        <Annotation>BasicScalarSystemCall</Annotation>
+      </Methods>
+    </Int32>
+    <DateTime>
+      <Properties>
+        <Now>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{}.{}.{}</Annotation>
+        </Now>
+      </Properties>
+      <Methods>
+        <Subtract>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P.?}.{}.{}</Annotation>
+        </Subtract>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P}.{}.{}</Annotation>
+        </ctor>
+        <ParseExact>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P}.{RV.?}.{}</Annotation>
+        </ParseExact>
+        <op_Subtraction>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P;P.?}.{RV.?}.{}</Annotation>
+        </op_Subtraction>
+      </Methods>
+    </DateTime>
+    <Guid>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{}.{RV.?}.{}</Annotation>
+        </ctor>
+        <NewGuid>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P}.{RV.?}.{}</Annotation>
+        </NewGuid>
+        <GetHashCode>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R.?}.{}.{}</Annotation>
+        </GetHashCode>
+        <ToString>
+          <!-- TODO: VER R... porque se podría saltear -->
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;P}.{}.{}</Annotation>
+        </ToString>
+      </Methods>
+    </Guid>
+    <Math>
+      <Methods>
+        <AnnotationType>Predefined</AnnotationType>
+        <Annotation>BasicScalarSystemCall</Annotation>
+      </Methods>
+    </Math>
+    <Exception>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many}.{P}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </Exception>
+    <Array>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P}.{RV.?}.{}</Annotation>
+        </ctor>
+      </Methods>
+      <Properties>
+        <AnnotationType>Custom</AnnotationType>
+        <Annotation>Null.{}.{R.?}.{}.{}</Annotation>
+      </Properties>
+    </Array>
+    <Type>
+      <Methods>
+        <GetEvent>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{R;R.?;P;P.?}.{RV.?}.{}</Annotation>
+        </GetEvent>
+        <GetProperties>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{System.Reflection.PropertyInfo}}.{R;R.?}.{RV.?;RO.?}.{[RV, RO, ?]}</Annotation>
+        </GetProperties>
+        <GetGenericTypeDefinition>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{R;R.?}.{RV.?}.{}</Annotation>
+        </GetGenericTypeDefinition>
+        <GetGenericArguments>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{System.Type}}.{R;R.?}.{RV.?;RO.?}.{[RV, RO, ?]}</Annotation>
+        </GetGenericArguments>
+        <MakeGenericType>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P;P.?;P.?.?}.{RV.?}.{}</Annotation>
+        </MakeGenericType>
+      </Methods>
+    </Type>
+    <GC>
+      <Methods>
+        <AnnotationType>Predefined</AnnotationType>
+        <Annotation>Nothing</Annotation>
+      </Methods>
+    </GC>
+    <IComparable>
+      <Methods>
+        <CompareTo>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.*.?;P;P.?;P.*.?}.{}.{}</Annotation>
+        </CompareTo>
+      </Methods>
+    </IComparable>
+    <Activator>
+      <Methods>
+        <CreateInstance>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many}.{P;P.?}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </CreateInstance>
+      </Methods>
+    </Activator>
+    <Nullable>
+      <Methods>
+        <GetUnderlyingType>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P;P.?}.{RV.?}.{}</Annotation>
+        </GetUnderlyingType>
+      </Methods>
+    </Nullable>
+	<Convert>
+      <Methods>
+        <ToInt32>
+          <AnnotationType>Predefined</AnnotationType>
+          <Annotation>BasicScalarSystemCall</Annotation>
+        </ToInt32>
+      </Methods>
+	</Convert>
+  </System>
+  <System.IO>
+    <DirectoryInfo>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P}.{RV.?}.{}</Annotation>
+        </ctor>
+      </Methods>
+    </DirectoryInfo>
+    <TextWriter>
+      <Methods>
+        <WriteLine>
+          <AnnotationType>Predefined</AnnotationType>
+          <Annotation>BasicScalarSystemCall</Annotation>
+        </WriteLine>
+      </Methods>
+    </TextWriter>
+  </System.IO>
+  <System.Reflection>
+    <Assembly>
+      <Methods>
+        <GetExecutingAssembly>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{}.{RV.?}.{}</Annotation>
+        </GetExecutingAssembly>
+      </Methods>
+    </Assembly>
+    <PropertyInfo>
+      <Methods>
+        <GetValue>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>IsIn{P.?}.{}.{R;R.?;P.?}.{}.{}</Annotation>
+        </GetValue>
+      </Methods>
+    </PropertyInfo>
+    <EventInfo>
+      <Methods>
+        <AddEventHandler>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;P}.{R.?}.{}</Annotation>
+        </AddEventHandler>
+      </Methods>
+    </EventInfo>
+	<ConstructorInfo>
+      <Methods>
+        <Invoke>
+          <AnnotationType>Custom</AnnotationType>
+          <!-- Se quiere retornar el nuevo objeto leyendo lo anterior... -->
+          <Annotation>IsIn{P[1]}.{}.{R;R.?;P[0]}.{}.{}</Annotation>
+        </Invoke>
+      </Methods>
+    </ConstructorInfo>
+  </System.Reflection>
+  <System.Linq>
+    <Enumerable>
+      <Methods>
+        <First>
+          <AnnotationType>Custom</AnnotationType>
+          <!-- Se podría mejorar TODO (con el detalle de la lista y el oftype... -->
+          <Annotation>IsIn{R.*.OfType{Object};P.*}.{}.{R.?;R.*.?;P.?;P.*.?}.{}.{}</Annotation>
+        </First>
+        <Select>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P}.{RV.?}.{[RV, P, ?]}</Annotation>
+        </Select>
+        <ToList>
+          <AnnotationType>Custom</AnnotationType>
+          <!-- Se podría mejorar TODO (con el detalle de la lista y el oftype... -->
+          <Annotation>Fresh.{Single}.{R.?;R.*.?;P.?;P.*.?}.{RV.?;RO.?}.{[RV, RO, ?], [RO, R.*;P.*, ?]}</Annotation>
+        </ToList>
+        <Count>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{P.?}.{}.{}</Annotation>
+        </Count>
+      </Methods>
+    </Enumerable>
+  </System.Linq>
+  <System.Collections>
+    <ArrayList>
+      <Methods>
+        <Add>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?.?;P}.{R.?;R.?.?}.{[R.?, P, ?]}</Annotation>
+        </Add>
+        <!--<Count>
+          <HavocType>ReadOnly</HavocType>
+          <CallbackHavocType>ReadOnly</CallbackHavocType>
+        </Count>
+        <GetEnumerator>
+          <HavocType>ReadOnlyPersistentReturn</HavocType>
+          <CallbackHavocType>WriteThisReadParameters</CallbackHavocType>
+        </GetEnumerator>
+        <MoveNext>
+          <HavocType>WriteThisReadParameters</HavocType>
+          <CallbackHavocType>WriteThisReadParameters</CallbackHavocType>
+        </MoveNext>-->
+        <ctor>
+          <!--<HavocType>WriteThisReadParameters</HavocType>-->
+          <AnnotationType>Custom</AnnotationType>
+          <!-- Podría ser más preciso con el tipo en Many y con el/los fields puntuales que se conecten -->
+          <Annotation>Fresh.{Many}.{P}.{RV.?;RO.?}.{[RV, RO, ?]}</Annotation>
+        </ctor>
+        <!--<Contains>
+          <HavocType>ReadOnly</HavocType>
+          <CallbackHavocType>ReadOnly</CallbackHavocType>
+        </Contains>-->
+      </Methods>
+    </ArrayList>
+  </System.Collections>
+  <System.Collections.Generic>
+    <List>
+      <Methods>
+        <!--<Count>
+          <HavocType>ReadOnly</HavocType>
+          <CallbackHavocType>ReadOnly</CallbackHavocType>
+        </Count>
+        <GetEnumerator>
+          <HavocType>ReadOnlyPersistentReturn</HavocType>
+          <CallbackHavocType>WriteThisReadParameters</CallbackHavocType>
+        </GetEnumerator>
+        <MoveNext>
+          <HavocType>WriteThisReadParameters</HavocType>
+          <CallbackHavocType>WriteThisReadParameters</CallbackHavocType>
+        </MoveNext>-->
+        <Add>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Null.{}.{R;R.?.?;P}.{R.?;R.?.?}.{[R.?, P, ?]}</Annotation>-->
+          <Annotation>Null.{}.{R;R.?;R.*.UntilType{System.Array}.OfType{System.Array}.?;P}.{R.?;R.*.UntilType{System.Array}.OfType{System.Array}.?}.{[R.*.UntilType{System.Array}.OfType{System.Array}, P, ?]}</Annotation>
+        </Add>
+        <ctor>
+          <!--<HavocType>WriteThisReadParameters</HavocType>-->
+          <AnnotationType>Custom</AnnotationType>
+          <!-- Podría ser más preciso con el tipo en Many y con el/los fields puntuales que se conecten -->
+          <Annotation>Fresh.{Single{System.Array}}.{P}.{RV.?;RO.?}.{[RV, RO, ?]}</Annotation>
+        </ctor>
+        <!--<Sort>
+          <HavocType>WriteThisReadParameters</HavocType>
+        </Sort>-->
+        <ToArray>
+          <AnnotationType>Custom</AnnotationType>
+          <!-- Podría ser más preciso con el tipo en Many y con el/los fields puntuales que se conecten -->
+          <Annotation>Fresh.{}.{R;R.?;R.*.UntilType{System.Array}.OfType{System.Array}.?}.{RV.?}.{[RV, R.*.UntilType{@RV}.OfType{@RV}, ?]}</Annotation>
+        </ToArray>
+        <get_Item>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>IsIn{R.?.?.OfType{A}}.{}.{R.?;R.?.?;P}.{}.{}</Annotation>-->
+          <Annotation>IsIn{R.*.UntilType{@RV}.OfType{@RV}}.{}.{R;R.?;R.?.?;P}.{}.{}</Annotation>
+          <!--<Annotation>IsIn{R.*.UntilType{*T}.OfType{*T}}.{}.{R.?;R.?.?;P}.{}.{}</Annotation>-->
+        </get_Item>
+        <set_Item>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.?.?;P}.{R.?.?}.{[R.?, P[1], ?]}</Annotation>
+        </set_Item>
+        <Sort>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.*.UntilType{System.Array}.OfType{System.Array}.?;P;P.?}.{R.?;R.*.UntilType{System.Array}.OfType{System.Array}.?}.{}</Annotation>
+        </Sort>
+      </Methods>
+    </List>
+    <IList>
+      <Methods>
+        <GetEnumerator>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{R.?}.{RV.?}.{[RV, R, list]}</Annotation>
+        </GetEnumerator>
+        <MoveNext>
+          <!-- TODO: CHECK -->
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R.?;R.?.?}.{R.?}.{[R, R.*, Current]}</Annotation>
+        </MoveNext>
+        <Add>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?.?;P}.{R.?;R.?.?}.{[R.?, P, ?]}</Annotation>
+        </Add>
+        <get_Item>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>IsIn{R.?.?.OfType{A}}.{}.{R.?;R.?.?;P}.{}.{}</Annotation>-->
+          <Annotation>IsIn{R.*.UntilType{@RV}.OfType{@RV}}.{}.{R;R.?;R.?.?;P}.{}.{}</Annotation>
+          <!--<Annotation>IsIn{R.*.UntilType{*T}.OfType{*T}}.{}.{R.?;R.?.?;P}.{}.{}</Annotation>-->
+        </get_Item>
+        <set_Item>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.?.?;P}.{R.?.?}.{[R.?, P[1], ?]}</Annotation>
+        </set_Item>
+      </Methods>
+    </IList>
+    <Dictionary>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <!-- Podría ser más preciso con el tipo en Many y con el/los fields puntuales que se conecten (TODO) -->
+          <Annotation>Fresh.{Many{|DictInternal}}.{P}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, P, ?]}</Annotation>
+        </ctor>
+        <ContainsKey>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.?.?.OfKind{DictInternal}.?;P}.{}.{}</Annotation>
+        </ContainsKey>
+        <Add>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.?.?.OfKind{DictInternal}.?;P}.{R.?.?.OfKind{DictInternal}.?}.{[R.?.?.OfKind{DictInternal}, P, ?]}</Annotation>
+        </Add>
+      </Methods>
+    </Dictionary>
+    <ICollection>
+      <Methods>
+        <Add>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.?.OfType{System.Array}.?;P}.{R.?;R.?.OfType{System.Array}.?}.{[R.?.OfType{System.Array}, P, ?]}</Annotation>
+        </Add>
+        <ctor></ctor>
+      </Methods>
+    </ICollection>
+    <HashSet>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <!-- Podría ser más preciso con el tipo en Many y con el/los fields puntuales que se conecten (TODO) -->
+          <Annotation>Fresh.{Many{|HashSet}}.{P}.{RV.?;RO.?}.{[RV, RO, ?], [RO, P, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </HashSet>
+    <IEnumerable>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P}.{RV.?}.{[RV, P, ?]}</Annotation>
+        </ctor>
+        <Add>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{P}.{R.?}.{[R, P, ?]}</Annotation>
+        </Add>
+      </Methods>
+    </IEnumerable>
+  </System.Collections.Generic>
+  <System.ComponentModel>
+    <IContainer>
+      <Methods>
+        <Add>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.?.?.OfKind{ContainerInternal}.?;P}.{R.?.?.OfKind{ContainerInternal}.?}.{[R.?.?.OfKind{ContainerInternal}, P, ?]}</Annotation>
+        </Add>
+      </Methods>
+    </IContainer>
+    <Container>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <!-- Podría ser más preciso con el tipo en Many y con el/los fields puntuales que se conecten (TODO) -->
+          <Annotation>Fresh.{Many{|ContainerInternal}}.{P}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, P, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </Container>
+    <Component>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|CompModel}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </Component>
+    <ISupportInitialize>
+      <Methods>
+        <BeginInit>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{Many{|CompModel}}.{R;R.?;R.*.OfKind{CompModel}.?}.{R.?;R.*.OfKind{CompModel}.?;RO.?}.{[R.*.OfKind{CompModel};RO, RO, ?], [RO, R.*.OfKind{CompModel}, ?]}</Annotation>
+        </BeginInit>
+        <EndInit>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{Many{|CompModel}}.{R;R.?;R.*.OfKind{CompModel}.?}.{R.?;R.*.OfKind{CompModel}.?;RO.?}.{[R.*.OfKind{CompModel};RO, RO, ?], [RO, R.*.OfKind{CompModel}, ?]}</Annotation>
+        </EndInit>
+      </Methods>
+    </ISupportInitialize>
+    <PropertyDescriptor>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P;P.?;P.?.?}.{RV.?}.{}</Annotation>
+        </ctor>
+        <GetValue>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>IsIn{P.?}.{}.{R;R.?;P;P.?}.{}.{}</Annotation>
+        </GetValue>
+      </Methods>
+    </PropertyDescriptor>
+    <PropertyDescriptorCollection>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|CompModel}}.{P;P.?}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, P;P.?, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </PropertyDescriptorCollection>
+    <BindingList>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|CompModel}}.{P;P.?}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, P;P.?, ?]}</Annotation>
+        </ctor>
+        <EndNew>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{Many{|CompModel}}.{P;R;R.?;R.*.OfKind{CompModel}.?}.{R.?;R.*.OfKind{CompModel}.?;RO.?}.{[R.*.OfKind{CompModel};RO, RO, ?], [RO, R.*.OfKind{CompModel}, ?]}</Annotation>
+        </EndNew>
+        <OnListChanged>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{P;P.?}.{R.?}.{}</Annotation>
+        </OnListChanged>
+      </Methods>
+    </BindingList>
+    <ListChangedEventArgs>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P;P.?}.{RV.?}.{}</Annotation>
+        </ctor>
+      </Methods>
+    </ListChangedEventArgs>
+    <TypeDescriptor>
+      <Methods>
+        <GetProperties>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|PropertiesInfo}}.{P;P.?}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation>
+        </GetProperties>
+      </Methods>
+    </TypeDescriptor>
+  </System.ComponentModel>
+  <System.Diagnostics>
+    <Process>
+      <Methods>
+        <GetCurrentProcess>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation>
+        </GetCurrentProcess>
+      </Methods>
+    </Process>
+    <Debug>
+      <Methods>
+        <Assert>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{P}.{}.{}</Annotation>
+        </Assert>
+      </Methods>
+    </Debug>
+  </System.Diagnostics>
+  <System.Diagnostics.Contracts>
+    <Contract>
+      <Methods>
+        <EndContractBlock>
+          <AnnotationType>Predefined</AnnotationType>
+          <Annotation>Nothing</Annotation>
+        </EndContractBlock>
+      </Methods>
+    </Contract>
+  </System.Diagnostics.Contracts>
+  <log4net>
+    <LogManager>
+      <Methods>
+        <GetLogger>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{Many}.{P;P.?;P.*.?}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation> HACKKK -->
+          <Annotation>Fresh.{Many{|L}}.{P;P.?;P.*.?}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation>
+        </GetLogger>
+      </Methods>
+    </LogManager>
+    <ILog>
+      <Methods>
+        <Info>
+          <AnnotationType>Predefined</AnnotationType>
+          <Annotation>BasicScalarSystemCall</Annotation>
+        </Info>
+      </Methods>
+    </ILog>
+  </log4net>
+  <NHibernate.Cfg>
+    <Configuration>
+      <Methods>
+        <BuildSessionFactory>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{Many}.{R;R.?}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation>-->
+          <Annotation>Fresh{|HO}.{Many{|HA};Many{|Cache}}.{R;R.*.OfKind{HConfig}.?}.{RV.?;RO.?}.{[RV;RO[0], RO[0], ?], [RV, R.*.OfKind{HConfig}, ?], [RO[0], RO[1], ?]}</Annotation>
+        </BuildSessionFactory>
+        <AddDirectory>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>IsIn{R}.{}.{R;R.?;R.?.?;P}.{R.?;R.?.?}.{}</Annotation>-->
+          <Annotation>IsIn{R}.{}.{R.*.OfKind{HConfig}.?;P;P.?}.{R.*.OfKind{HConfig}.?}.{}</Annotation>
+        </AddDirectory>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{Many}.{P}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation> HACKKK -->
+          <Annotation>Fresh{|HO}.{Many{|HConfig}}.{P}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </Configuration>
+  </NHibernate.Cfg>
+  <NHibernate.Tool.hbm2ddl>
+    <SchemaExport>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{Many}.{P;P.?;P.?.?}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation> HACKKK -->
+          <Annotation>Fresh{|HO}.{Many{|S}}.{P;P.?}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RV;RO, P, ?]}</Annotation>
+        </ctor>
+        <Execute>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Null.{}.{R.?;R.?.?;P}.{}.{}</Annotation> HACKKK -->
+          <Annotation>Null.{}.{R.*.OfKind{HConfig, S}.?;P}.{}.{}</Annotation>
+        </Execute>
+      </Methods>
+    </SchemaExport>
+  </NHibernate.Tool.hbm2ddl>
+  <NHibernate.Mapping.Attributes>
+    <HbmSerializer>
+      <Methods>
+        <Serialize>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R.?;P}.{}.{}</Annotation>
+        </Serialize>
+      </Methods>
+    </HbmSerializer>
+  </NHibernate.Mapping.Attributes>
+  <NHibernate>
+    <ISessionFactory>
+      <Methods>
+        <OpenSession>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{Many}.{R.?}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation> HACKKK -->
+          <Annotation>Fresh{|HO}.{Many{|HC}}.{R;R.*.OfKind{HA}.?}.{RV.?;RO.?}.{[RV;RO, RO;R, ?]}</Annotation>
+        </OpenSession>
+      </Methods>
+    </ISessionFactory>
+    <ISession>
+      <Methods>
+        <Close>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>IsIn{R.?}.{}.{R.?;R.?.?}.{R.?;R.?.?}.{}</Annotation> HACKKK -->
+          <Annotation>Null.{}.{R;R.*.OfKind{HC}.?}.{R.*.OfKind{HC}.?}.{}</Annotation>
+        </Close>
+        <Save>
+          <!-- Falta oftype -->
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Null.{}.{R.?;R.*.?;P;P.?}.{R.?;R.?.?}.{[R.?, P, ?]}</Annotation> HACKKK -->
+          <Annotation>Null.{}.{R;R.*.OfKind{HA, HC}.?;P;P.@RFieldA;P.*.@RFieldB}.{R.*.OfKind{HC}.?;P.@WField;P.*.@WField}.{[R.*.OfKind{HC}, P, ?]}</Annotation>
+        </Save>
+        <Load>
+          <AnnotationType>Custom</AnnotationType>
+          <!-- TODO: Depende de que trae el GET! se puede mejorar mal -->
+          <!--<Annotation>Fresh.{Many}.{R.?;R.*.?}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation> HACKKK -->
+          <Annotation>IsIn{P[2];P[3];P[4]}.{}.{P[0].?;P[1];R.*.OfKind{HA, HC, Cache}.?}.{R.*.OfKind{HC}.?}.{[R.*.OfKind{HC}, P[2];P[3];P[4], ?]}</Annotation>
+        </Load>
+        <BeginTransaction>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{Many}.{R.?;R.?.?}.{R.?;R.?.?;RV.?;RO.?}.{[RV;RO, RO, ?], [R, RV, ?]}</Annotation> HACKKK -->
+          <Annotation>Null.{}.{R;R.*.OfKind{HC}.?}.{R.*.OfKind{HC}.?}.{}</Annotation>
+        </BeginTransaction>
+        <Delete>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Null.{}.{R.?;R.?.?}.{R.?;R.?.?}.{}</Annotation> HACKKK -->
+          <Annotation>Null.{}.{R;R.*.OfKind{HA, HC}.?}.{R.*.OfKind{HC}.?}.{}</Annotation>
+        </Delete>
+        <CreateCriteria>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{}.{R.?}.{RV.?}.{[RV, R, ?]}</Annotation> HACKKK -->
+          <Annotation>Fresh{|HO}.{Many{|Q}}.{R}.{RV.?;RO.?}.{[RV;RO, R, ?]}</Annotation>
+        </CreateCriteria>
+        <SaveOrUpdate>
+          <!-- Falta oftype -->
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Null.{}.{R.?;R.*.?;P;P.?}.{R.?;R.?.?}.{[R.?, P, ?]}</Annotation> HACKKK -->
+          <Annotation>Null.{}.{R;R.*.OfKind{HA, HC}.?;P;P.@RFieldA;P.*.@RFieldB}.{R.*.OfKind{HC}.?;P.@WField;P.*.@WField}.{[R.*.OfKind{HC}, P, ?]}</Annotation>
+        </SaveOrUpdate>
+        <CreateQuery>
+          <AnnotationType>Custom</AnnotationType>
+          <!-- TODO: Agregar tipos... -->
+          <!--<Annotation>Fresh.{}.{R;R.?;P}.{RV.?}.{[RV, R, ?]}</Annotation>-->
+          <!--<Annotation>Fresh.{}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?;P}.{RV.?}.{[RV, R, ?]}</Annotation> HACKKK -->
+          <Annotation>Fresh{|HO}.{Many{|Q}}.{R;P}.{RV.?;RO.?}.{[RV;RO, R, ?]}</Annotation>
+        </CreateQuery>
+        <Get>
+          <AnnotationType>Custom</AnnotationType>
+          <!-- TODO: Depende de que trae el GET! se puede mejorar mal -->
+          <!--<Annotation>Fresh.{Many}.{R.?;R.*.?}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation> HACKKK-->
+          <Annotation>IsIn{P[2];P[3];P[4]}.{}.{P[0].?;P[1];R.*.OfKind{HA, HC, Cache}.?}.{R.*.OfKind{HC}.?}.{[R.*.OfKind{HC}, P[2];P[3];P[4], ?]}</Annotation>
+        </Get>
+      </Methods>
+    </ISession>
+    <ITransaction>
+      <Methods>
+        <Commit>
+          <!-- TODO: se podría mejorar con tipos -->
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Null.{}.{R.?;R.*.?}.{R.?;R.*.?}.{}</Annotation> HACKKK -->
+          <Annotation>Null.{}.{R;R.*.OfKind{Default, HA, HC}.?}.{R.*.OfKind{HC, Cache}.?}.{}</Annotation>
+        </Commit>
+      </Methods>
+    </ITransaction>
+    <IQuery>
+      <Methods>
+        <ExecuteUpdate>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Null.{}.{R.?;R.?.?}.{R.?;R.?.?}.{}</Annotation> HACKKK -->
+          <Annotation>Null.{}.{R;R.*.OfKind{HA, HC, Q}.?}.{R.*.OfKind{Q}.?}.{}</Annotation>
+        </ExecuteUpdate>
+        <List>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{Many}.{R.?;R.*.?}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation> HACKKK -->
+          <Annotation>Fresh.{Single{System.Array}}.{R;R.?;R.*.OfKind{HA, HC, Q, Cache}.?}.{R.*.OfKind{HC, Q}.?;RV.?;RO.?}.{[R.*.OfKind{HC};RO, P;P.*, ?]}</Annotation>
+        </List>
+        <SetParameter>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>IsIn{R}.{Single}.{R.?;R.*.?;P}.{R.?;RO.?}.{[R;RO, RO, ?]}</Annotation> HACKKK -->
+          <Annotation>Null.{}.{R;R.?;P}.{R.?;R.*.OfKind{Q}.?}.{}</Annotation>
+        </SetParameter>
+      </Methods>
+    </IQuery>
+    <ICriteria>
+      <Methods>
+        <List>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{Many}.{R.?;R.*.?}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation> HACKKK -->
+          <Annotation>Fresh.{Single{System.Array}}.{R;R.*.OfKind{HA, HC, Q, Cache}.?}.{R.*.OfKind{HC, Q}.?;RV.?;RO.?}.{[R.*.OfKind{HC};RO, P;P.*, ?]}</Annotation>
+        </List>
+      </Methods>
+    </ICriteria>
+    <NHibernateUtil>
+      <Methods>
+        <!-- Llena la dependencia -->
+        <Initialize>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Null.{Many}.{R.?;R.*.?;P;P.?}.{P.?;RO.?}.{[P;RO, RO, ?]}</Annotation> HACKKK -->
+          <Annotation>Null.{}.{P;P.*.?}.{}.{}</Annotation>
+        </Initialize>
+      </Methods>
+    </NHibernateUtil>
+  </NHibernate>
+  <NPersistence>
+    <Persistence>
+      <Methods>
+        <CreateEntityManagerFactory>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{Many}.{P}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation> HACKKK -->
+          <!--<Annotation>Fresh.{Many{FrameworkDummy}}.{P}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation>-->
+          <!--<Annotation>Fresh.{Many{FrameworkDummyA}}.{P}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation>-->
+          <Annotation>Fresh{|HO}.{Many{|HA};Many{|Cache}}.{P}.{RV.?;RO.?}.{[RV;RO[0], RO[0], ?], [RO[0], RO[1], ?]}</Annotation>
+        </CreateEntityManagerFactory>
+      </Methods>
+    </Persistence>
+    <EntityManagerFactory>
+      <Methods>
+        <CreateEntityManager>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{Many}.{R.?;R.?.?}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RV;RO, R.?, ?]}</Annotation> HACKKK -->
+          <!--<Annotation>Fresh.{}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?}.{RV.?}.{[RV, R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}, ?]}</Annotation>-->
+          <!--<Annotation>Fresh.{Many{FrameworkDummyB}}.{R.?;R.*.UntilType{FrameworkDummyA}.OfType{FrameworkDummyA}.?}.{RV.?;RO.?}.{[RV, RO;R.*.UntilType{FrameworkDummyA}.OfType{FrameworkDummyA};R, ?], [RO, RV, ?]}</Annotation>-->
+          <!--<Annotation>Fresh.{Many{FrameworkDummyB}}.{R.?}.{RV.?;RO.?}.{[RV, RO;R.*.OfType{FrameworkDummyA};R, ?], [RO, RV, ?]}</Annotation>-->
+          <Annotation>Fresh{|HO}.{Many{|HB}}.{R.*.OfKind{HA}.?}.{RV.?;RO.?}.{[RV, RO;R.*.OfKind{HA};R, ?], [RO, RV, ?]}</Annotation>
+        </CreateEntityManager>
+      </Methods>
+    </EntityManagerFactory>
+    <EntityManager>
+      <Methods>
+        <Begin>
+          <AnnotationType>Predefined</AnnotationType>
+          <Annotation>WriteThisReadParameters_Null_Null</Annotation>
+        </Begin>
+        <Close>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Null.{}.{R.?;R.?.?}.{R.?;R.?.?}.{}</Annotation> HACKKK-->
+          <!--<Annotation>Null.{}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?}.{}</Annotation>-->
+          <Annotation>Null.{}.{R.*.OfKind{HC}.?}.{R.*.OfKind{HC}.?}.{}</Annotation>
+        </Close>
+        <GetTransaction>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{Many}.{R.?;R.?.?}.{R.?.?;R.?.?.?;RV.?}.{[RV, RO, ?], [RO, R.?;R.?.?, ?]}</Annotation> HACKKK-->
+          <!--<Annotation>Fresh.{}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?}.{RV.?}.{[RV, R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}, ?]}</Annotation>-->
+          <!--<Annotation>IsIn{R.*.UntilType{FrameworkDummyB}.OfType{FrameworkDummyB}}.{}.{}.{}.{}</Annotation>-->
+          <Annotation>IsIn{R.*.OfKind{HB}}.{}.{}.{}.{}</Annotation>
+        </GetTransaction>
+        <CreateQuery>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{}.{R;R.?;P}.{RV.?}.{[RV, R, ?]}</Annotation> HACKKK -->
+          <!--<Annotation>Fresh.{}.{R.?;R.*.OfType{FrameworkDummyB}.?;P}.{RV.?}.{[RV, R;R.OfType{FrameworkDummyB}, ?]}</Annotation>-->
+          <Annotation>Fresh.{}.{R.?;R.*.OfKind{HB}.?;P}.{RV.?}.{[RV, R;R.OfKind{HB}, ?]}</Annotation>
+        </CreateQuery>
+        <Find>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>IsIn{P[2];R.*.UntilType{@RV}.OfType{@RV}}.{Many}.{R.?;R.*.?;P}.{R.?;R.?.?;RO.?;P[2].?}.{[RO, RO, ?], [P[2], RO, ?], [R.?.?, P[2], ?]}</Annotation> HACKKK-->
+          <!--<Annotation>IsIn{P[2];R.*.UntilType{@RV}.OfType{@RV}}.{}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?;P}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?}.{[R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}, P[2], ?]}</Annotation>-->
+          <!--<Annotation>IsIn{P[2];R.*.UntilType{@RV}.OfType{@RV}}.{}.{R.*.OfType{FrameworkDummyA}.?;R.*.OfType{FrameworkDummyC}.?;P}.{R.*.OfType{FrameworkDummyC}.?}.{[R.*.OfType{FrameworkDummyC}, P[2], ?]}</Annotation>-->
+          <Annotation>IsIn{P[2];R.*.UntilType{@RV}.OfType{@RV}}.{}.{R.*.OfKind{Cache, HC}.?;P}.{R.*.OfKind{HC}.?}.{[R.*.OfKind{HC}, P[2], ?]}</Annotation>
+        </Find>
+        <Persist>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Null.{}.{R;R.?;R.?.?;P;P.?;P.*.?}.{R.?;R.*.?;P.?;P.*.?}.{[R.?.?, P, ?]}</Annotation> HACKKK-->
+          <!--<Annotation>Null.{}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?;P;P.?;P.*.?}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?;P.?;P.*.?}.{[R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}, P, ?]}</Annotation>-->
+          <!--<Annotation>Null.{}.{R.*.OfType{FrameworkDummyA}.?;R.*.OfType{FrameworkDummyB}.?;R.*.OfType{FrameworkDummyC}.?;P;P.?;P.*.?}.{R.*.OfType{FrameworkDummyC}.?;P.?;P.*.?}.{[R.*.OfType{FrameworkDummyC}, P, ?]}</Annotation>-->
+          <!--<Annotation>Null.{}.{R.*.OfType{FrameworkDummyA}.?;R.*.OfType{FrameworkDummyB}.?;R.*.OfType{FrameworkDummyC}.?;P;P.?;P.*.?}.{R.*.OfType{FrameworkDummyC}.?;R.*.OfType{FrameworkDummyA}.?;P.?;P.*.?}.{[R.*.OfType{FrameworkDummyC};R.*.OfType{FrameworkDummyA}, P, ?]}</Annotation>-->
+          <Annotation>Null.{}.{R.*.OfKind{HA, HB, HC}.?;P;P.@RFieldA;P.*.@RFieldB}.{R.*.OfKind{HC}.?;P.@WField;P.*.@WField}.{[R.*.OfKind{HC}, P, ?]}</Annotation>
+        </Persist>
+      </Methods>
+    </EntityManager>
+    <EntityTransaction>
+      <Methods>
+        <Commit>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Null.{}.{R.?;R.?.?}.{R.?;R.?.?}.{}</Annotation> HACKKK-->
+          <!--<Annotation>Null.{}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?}.{}</Annotation>-->
+          <!--<Annotation>Null.{}.{R.*.OfType{FrameworkDummyA}.?;R.*.OfType{FrameworkDummyC}.?}.{R.*.OfType{FrameworkDummyC}.?}.{}</Annotation>-->
+          <!--<Annotation>Null.{}.{R.*.OfType{FrameworkDummyA}.?;R.*.OfType{FrameworkDummyC}.?}.{R.*.OfType{FrameworkDummyC}.?;R.*.OfType{FrameworkDummyA}.?}.{}</Annotation>-->
+          <!--<Annotation>Null.{}.{R.*.OfType{model.Client}.?;R.*.OfType{model.Book}.?;R.*.OfType{Generic.List}.?;R.*.OfType{FrameworkDummyA}.?;R.*.OfType{FrameworkDummyC}.?}.{R.*.OfType{FrameworkDummyC}.?;R.*.OfType{FrameworkDummyA}.?}.{}</Annotation> VERSION OK FormationJPA -->
+          <!--<Annotation>Null.{}.{R.*.OfType{EntityA}.?;R.*.OfType{EntityB}.?;R.*.OfType{Generic.List}.?;R.*.OfType{FrameworkDummyA}.?;R.*.OfType{FrameworkDummyC}.?}.{R.*.OfType{FrameworkDummyC}.?;R.*.OfType{FrameworkDummyA}.?}.{}</Annotation> -->
+          <!-- Version MavenJPA Demo -->
+          <Annotation>Null.{}.{R.*.OfKind{Default, HA, HC}.?}.{R.*.OfKind{HC, Cache}.?}.{}</Annotation>
+        </Commit>
+        <Begin>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Null.{}.{R.?;R.?.?}.{R.?;R.?.?}.{}</Annotation> HACKKK-->
+          <!--<Annotation>Null.{}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?}.{}</Annotation>-->
+          <!--<Annotation>Null.{Many{FrameworkDummyC}}.{R.?;R.*.OfType{FrameworkDummyA}.?;R.*.OfType{FrameworkDummyB}.?;R.*.OfType{EntityManager}.?}.{R.?;RO.?;R.*.OfType{EntityManager}.?}.{[RO, R;R.*.OfType{FrameworkDummyA}, ?], [R;R.*.OfType{EntityManager}, RO, ?]}</Annotation>-->
+          <Annotation>Null.{Many{|HC}}.{R.?;R.*.OfKind{HA, HB}.?;R.*.OfType{EntityManager}.OfKind{HO}.?}.{R.?;RO.?;R.*.OfType{EntityManager}.OfKind{HO}.?}.{[RO, R;R.*.OfKind{HA}, ?], [R;R.*.OfType{EntityManager}.OfKind{HO}, RO, ?]}</Annotation>
+        </Begin>
+      </Methods>
+    </EntityTransaction>
+    <TypedQuery>
+      <Methods>
+        <GetResultList>
+          <AnnotationType>Custom</AnnotationType>
+          <!--<Annotation>Fresh.{Many}.{R.?;R.*.?;P}.{R.?;R.?.?;P.?;RV.?;RO.?}.{[RO;RV, RO, ?], [RO, P, ?], [R.?.?, P, ?], [P, RO, ?]}</Annotation> HACKKK-->
+          <!--<Annotation>Fresh.{}.{R.?;R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?;P}.{R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy}.?;RV.?}.{[R.*.UntilType{FrameworkDummy}.OfType{FrameworkDummy};RV, P, ?]}</Annotation>-->
+          <!--<Annotation>Fresh.{Single{System.Array}}.{R.*.OfType{FrameworkDummyA}.?;R.*.OfType{FrameworkDummyC}.?}.{R.*.OfType{FrameworkDummyC}.?}.{[R.*.OfType{FrameworkDummyC}, P, ?], [RO, R.*.OfType{*X};P, ?]}</Annotation>-->
+          <Annotation>Fresh.{Single{System.Array}}.{R.?;R.*.OfKind{HA, HC}.?}.{R.*.OfKind{HC}.?}.{[R.*.OfKind{HC}, P, ?], [RO, R.*.OfType{*X}.OfKind{HO};P, ?]}</Annotation>
+        </GetResultList>
+      </Methods>
+    </TypedQuery>
+  </NPersistence>
+  <System.Data.Entity>
+    <DbContext>
+      <Methods>
+        <GetType>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{R}.{RV.?}.{}</Annotation>
+        </GetType>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|DBC}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </DbContext>
+  </System.Data.Entity>
+  <System.Windows.Forms>
+    <Application>
+      <Methods>
+        <EnableVisualStyles>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{P}.{}.{}</Annotation>
+        </EnableVisualStyles>
+        <SetCompatibleTextRenderingDefault>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{P}.{}.{}</Annotation>
+        </SetCompatibleTextRenderingDefault>
+      </Methods>
+    </Application>
+    <Form>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </Form>
+    <DataGridViewCellStyle>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </DataGridViewCellStyle>
+    <DataGridViewTextBoxColumn>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </DataGridViewTextBoxColumn>
+    <DataGridView>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+      <Properties>
+        <DataSource>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R}.{}.{}</Annotation>
+        </DataSource>
+      </Properties>
+    </DataGridView>
+    <BindingSource>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{P;P.?;P.*.?}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?], [RV;RO, P, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </BindingSource>
+    <TabControl>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </TabControl>
+    <TabPage>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </TabPage>
+    <Button>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </Button>
+    <DataGridViewCheckBoxColumn>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </DataGridViewCheckBoxColumn>
+    <DataGridViewImageColumn>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </DataGridViewImageColumn>
+    <SplitContainer>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </SplitContainer>
+    <Label>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </Label>
+    <TextBox>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </TextBox>
+    <DataGridViewComboBoxColumn>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </DataGridViewComboBoxColumn>
+    <ToolStrip>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+      <Properties>
+        <Dock>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>IsIn{R.?;P}.{}.{R;P}.{}.{}</Annotation>
+        </Dock>
+      </Properties>
+    </ToolStrip>
+    <ToolStripButton>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{P;P.?}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </ToolStripButton>
+    <ToolStripLabel>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{P}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </ToolStripLabel>
+    <ToolStripItemCollection>
+      <Methods>
+        <Add>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.*.OfKind{WinForms}.?;P;P.?;P.*.OfKind{WinForms}.?}.{R.*.OfKind{WinForms}.?;P.*.OfKind{WinForms}.?}.{[P.*.OfKind{WinForms}, R.*.OfKind{WinForms}, ?], [R.*.OfKind{WinForms}, P.*.OfKind{WinForms}, ?]}</Annotation>
+        </Add>
+        <Insert>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.*.OfKind{WinForms}.?;P;P.?;P.*.OfKind{WinForms}.?}.{R.*.OfKind{WinForms}.?;P.*.OfKind{WinForms}.?}.{[P.*.OfKind{WinForms}, R.*.OfKind{WinForms}, ?], [R.*.OfKind{WinForms}, P.*.OfKind{WinForms}, ?]}</Annotation>
+        </Insert>
+      </Methods>
+    </ToolStripItemCollection>
+    <ToolStripSeparator>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </ToolStripSeparator>
+    <Control>
+      <Methods>
+        <SuspendLayout>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>IsIn{R;R.*;P;P.*;RO}.{Many}.{R;R.?;R.*.?;P;P.?;P.*.?}.{R.?;R.*.?;P.?;P.*.?;RO.?}.{[R;R.*;P;P.*;RO, R;R.*;P;P.*;RO, ?]}</Annotation>
+        </SuspendLayout>
+        <OnBindingContextChanged>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{P}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </OnBindingContextChanged>
+      </Methods>
+    </Control>
+    <DataGridViewColumnCollection>
+      <Methods>
+        <AddRange>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;P;P.?;P.*.OfKind{WinForms}.?}.{R.*.OfKind{WinForms}.?;P.*.OfKind{WinForms}.?}.{[R.*.OfKind{WinForms}, P.*.OfKind{WinForms}, ?], [P.*.OfKind{WinForms}, R.*.OfKind{WinForms}, ?]}</Annotation>
+        </AddRange>
+      </Methods>
+    </DataGridViewColumnCollection>
+    <ControlCollection>
+      <Methods>
+        <Add>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.*.OfKind{WinForms}.?;P;P.?;P.*.OfKind{WinForms}.?}.{R.*.OfKind{WinForms}.?;P.*.OfKind{WinForms}.?}.{[P.*.OfKind{WinForms}, R.*.OfKind{WinForms}, ?], [R.*.OfKind{WinForms}, P.*.OfKind{WinForms}, ?]}</Annotation>
+        </Add>
+      </Methods>
+    </ControlCollection>
+    <Padding>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{P}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </Padding>
+    <Binding>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinForms}}.{P;P.?;P.?.?}.{RV.?;RO.?}.{[RV;RO, RO;P, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </Binding>
+    <ControlBindingsCollection>
+      <Methods>
+        <Add>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.*.OfKind{WinForms}.?;P}.{R;R.?;R.*.OfKind{WinForms}.?}.{[R.*.OfKind{WinForms}, P, ?]}</Annotation>
+        </Add>
+      </Methods>
+    </ControlBindingsCollection>
+  </System.Windows.Forms>
+  <System.Windows.Forms.DataVisualization.Charting>
+    <ChartArea>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinFormsDataVisualization}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </ChartArea>
+    <Legend>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinFormsDataVisualization}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </Legend>
+    <Series>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinFormsDataVisualization}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </Series>
+    <Chart>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|WinFormsDataVisualization}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+        <DataBind>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R.*.?}.{R.*.OfKind{WinFormsDataVisualization}.?}.{}</Annotation>
+        </DataBind>
+      </Methods>
+    </Chart>
+  </System.Windows.Forms.DataVisualization.Charting>
+  <System.Collections.ObjectModel>
+    <ObservableCollection>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|ObsCollection}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+      </Methods>
+    </ObservableCollection>
+    <Collection>
+      <Methods>
+        <Clear>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?}.{R;R.?}.{}</Annotation>
+        </Clear>
+        <Add>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.*.OfKind{ObsCollection}.?;P}.{R;R.?;R.*.OfKind{ObsCollection}.?}.{[R.*.OfKind{ObsCollection}, P, ?]}</Annotation>
+        </Add>
+        <get_Item>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>IsIn{R.*.UntilType{@RV}.OfType{@RV}}.{}.{R;R.?;R.?.?;P}.{}.{}</Annotation>
+        </get_Item>
+      </Methods>
+    </Collection>
+  </System.Collections.ObjectModel>
+  <System.Resources>
+    <ResourceManager>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|ResMan}}.{P;P.?}.{RV.?;RO.?}.{[RV;RO, RO, ?], [RO, RV, ?]}</Annotation>
+        </ctor>
+        <GetObject>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{R;R.?;R.?.?;P;P.?}.{RV.?}.{}</Annotation>
+        </GetObject>
+      </Methods>
+    </ResourceManager>
+  </System.Resources>
+  <System.Drawing>
+    <Point>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P}.{RV.?}.{}</Annotation>
+        </ctor>
+      </Methods>
+    </Point>
+    <Size>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P}.{RV.?}.{}</Annotation>
+        </ctor>
+      </Methods>
+    </Size>
+    <Font>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{}.{P}.{RV.?}.{}</Annotation>
+        </ctor>
+      </Methods>
+    </Font>
+  </System.Drawing>
+  <System.Data>
+    <DataTable>
+      <Methods>
+        <ctor>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|SystemData}}.{}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation>
+        </ctor>
+        <NewRow>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Fresh.{Many{|SystemData}}.{R;R.?;R.?.?}.{RV.?;RO.?}.{[RV;RO, RO, ?]}</Annotation>
+        </NewRow>
+      </Methods>
+    </DataTable>
+    <DataColumnCollection>
+      <Methods>
+        <Add>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;P;P.?}.{R.?;R.?.?}.{[R.?, P, ?]}</Annotation>
+        </Add>
+      </Methods>
+    </DataColumnCollection>
+    <DataRowCollection>
+      <Methods>
+        <Add>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;P;P.?}.{R.?;R.?.?}.{[R.?, P, ?]}</Annotation>
+        </Add>
+        <get_Item>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>IsIn{R.?}.{}.{P;R;R.?}.{}.{}</Annotation>
+        </get_Item>
+      </Methods>
+    </DataRowCollection>
+    <DataRow>
+      <Methods>
+        <set_Item>
+          <AnnotationType>Custom</AnnotationType>
+          <Annotation>Null.{}.{R;R.?;R.*.OfKind{SystemData}.?;P}.{R.*.OfKind{SystemData}.?}.{[R.*.OfKind{SystemData}, P, ?]}</Annotation>
+        </set_Item>
+      </Methods>
+    </DataRow>
+  </System.Data>
+</Summaries>
