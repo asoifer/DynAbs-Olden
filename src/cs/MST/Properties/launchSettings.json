@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MST": {
+      "commandName": "Project",
+      "commandLineArgs": "-v 4"
+    }
+  }
+}

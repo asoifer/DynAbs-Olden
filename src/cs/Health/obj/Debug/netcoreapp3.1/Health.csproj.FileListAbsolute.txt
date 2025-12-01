@@ -1,0 +1,14 @@
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\bin\Debug\netcoreapp3.1\Health.exe
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\bin\Debug\netcoreapp3.1\Health.deps.json
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\bin\Debug\netcoreapp3.1\Health.runtimeconfig.json
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\bin\Debug\netcoreapp3.1\Health.runtimeconfig.dev.json
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\bin\Debug\netcoreapp3.1\Health.dll
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\bin\Debug\netcoreapp3.1\Health.pdb
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\obj\Debug\netcoreapp3.1\Health.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\obj\Debug\netcoreapp3.1\Health.AssemblyInfoInputs.cache
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\obj\Debug\netcoreapp3.1\Health.AssemblyInfo.cs
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\obj\Debug\netcoreapp3.1\Health.csproj.CoreCompileInputs.cache
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\obj\Debug\netcoreapp3.1\Health.sourcelink.json
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\obj\Debug\netcoreapp3.1\Health.dll
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\obj\Debug\netcoreapp3.1\Health.pdb
+C:\Users\AlexisSoifer\PHD\Olden\src\CSharp\Health\obj\Debug\netcoreapp3.1\Health.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BiSort": {
+      "commandName": "Project",
+      "commandLineArgs": "-s 551"
+    }
+  }
+}

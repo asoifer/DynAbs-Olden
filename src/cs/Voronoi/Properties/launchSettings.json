@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Voronoi": {
+      "commandName": "Project",
+      "commandLineArgs": "-n 9"
+    }
+  }
+}

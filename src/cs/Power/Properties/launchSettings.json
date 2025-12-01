@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Power": {
+      "commandName": "Project",
+      "commandLineArgs": "-f 2 -l 2 -b 2 -l 2"
+    }
+  }
+}
