@@ -1,0 +1,11 @@
+ 0.0% done, time left: unknown                               100.0% done, time left: unknown  finished
+The dynamic slice for criterion [Perimeter.main:75:{slicingVariable1}]:
+Perimeter.main:58 INVOKEVIRTUAL QuadTreeNode.perimeter(I)I
+Perimeter.main:58 ISTORE 15
+Perimeter.main:73 ILOAD 15
+Perimeter.main:73 ISTORE 18
+WhiteNode.perimeter:29 ICONST_0
+WhiteNode.perimeter:29 IRETURN
+
+Slice consists of 6 bytecode instructions.
+Computation took 0.39 seconds.
