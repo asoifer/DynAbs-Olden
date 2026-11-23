@@ -224,9 +224,4 @@ public class Body : Node
 	{
 		return "Body " + base.ToString();
 	}
-
-    public HG walkSubTree2(double dsq, HG hg)
-    {
-        return walkSubTree(dsq, hg);
-    }
 }

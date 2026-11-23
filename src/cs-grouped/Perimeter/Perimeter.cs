@@ -32,12 +32,21 @@ public class Perimeter
 	// Set to true to print information messages.
 	//
 	private static bool printMsgs = false;
-	
-	//
-	// The entry point to computing the perimeter of an image.
-	// @param args the command line arguments
-	//
-	public static void Main(String[] args)
+
+    //
+    // Value used to determine the x-axis size of the image
+    //
+    public static int gcmp = 4194304;
+    //
+    // Value used to determine the y-axis size of the image
+    //
+    public static int lcmp = 1048576;
+
+    //
+    // The entry point to computing the perimeter of an image.
+    // @param args the command line arguments
+    //
+    public static void Main(String[] args)
 	{
 		parseCmdLine(args);
 

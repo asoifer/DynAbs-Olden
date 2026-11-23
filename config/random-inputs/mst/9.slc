@@ -36,6 +36,7 @@
     <staticMode>false</staticMode>
     <loopsOptimization>false</loopsOptimization>
     <memoryModel>Clusters</memoryModel>
+    <dependencyGraph>SubsumedDependencyGraph</dependencyGraph>
   </customization>
   <instances>
     <Instance>

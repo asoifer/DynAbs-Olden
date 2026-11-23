@@ -37,7 +37,6 @@
     <skippedFilesInfo>SkippedFilesInfo.txt</skippedFilesInfo>
   </results>
   <customization>
-    <summaries>.\config\Annotations.xml</summaries>
     <includeControlDependencies>true</includeControlDependencies>
     <includeAllUses>true</includeAllUses>
     <staticMode>false</staticMode>

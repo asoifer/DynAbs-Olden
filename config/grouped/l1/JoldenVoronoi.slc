@@ -9,6 +9,10 @@
     <lines>
       <FileLine>
         <file>Voronoi.cs</file>
+        <line>71</line>
+      </FileLine>
+      <FileLine>
+        <file>Voronoi.cs</file>
         <line>72</line>
       </FileLine>
       <FileLine>
@@ -26,10 +30,6 @@
       <FileLine>
         <file>Voronoi.cs</file>
         <line>76</line>
-      </FileLine>
-      <FileLine>
-        <file>Voronoi.cs</file>
-        <line>77</line>
       </FileLine>
     </lines>
     <mode>AtEndWithCriteria</mode>
@@ -49,7 +49,6 @@
     <skippedFilesInfo>SkippedFilesInfo.txt</skippedFilesInfo>
   </results>
   <customization>
-    <summaries>.\config\Annotations.xml</summaries>
     <includeControlDependencies>true</includeControlDependencies>
     <includeAllUses>true</includeAllUses>
     <staticMode>false</staticMode>

@@ -3,15 +3,6 @@
 public abstract partial class QuadTreeNode
 {
     //
-    // Value used to determine the x-axis size of the image
-    //
-    public static int gcmp = 4194304;
-    //
-    // Value used to determine the y-axis size of the image
-    //
-    public static int lcmp = 1048576;
-
-    //
     // Create an image which is represented using a QuadTreeNode.
     // @param size      size of image
     // @param center_x  x coordinate of center
@@ -22,8 +13,8 @@ public abstract partial class QuadTreeNode
     //
     public static QuadTreeNode createTree(int size, int center_x, int center_y, QuadTreeNode parent, Quadrant quadrant, int levels)
     {
-        gcmp = (1 << levels) * 1024;
-        lcmp = (1 << (levels - 1)) * 1024;
+        Perimeter.gcmp = (1 << levels) * 1024;
+        Perimeter.lcmp = (1 << (levels - 1)) * 1024;
         return createTreeInternal(size, center_x, center_y, parent, quadrant, levels);
     }
 
@@ -76,9 +67,9 @@ public abstract partial class QuadTreeNode
     private static int checkOutside(int x, int y)
     {
         int euclid = x * x + y * y;
-        if (euclid > gcmp)
+        if (euclid > Perimeter.gcmp)
             return 1;
-        if (euclid < lcmp)
+        if (euclid < Perimeter.lcmp)
             return -1;
         return 0;
     }

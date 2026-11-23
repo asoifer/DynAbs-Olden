@@ -4,5 +4,9 @@ Skipped lines (percentage): 60.14%
 Total files with lines: 7
 Total executed files excluded: 3
 Total executed files excluded (percentage): 42.86
+Skipped via get mode (callback): 0
+Skipped via get mode (body): 0
+Skipped stmt. via get mode (callback): 0
+Skipped stmt. via get mode (body): 0
 Excluded folders: 
 =========
