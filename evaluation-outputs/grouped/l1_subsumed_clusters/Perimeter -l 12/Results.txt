@@ -55,20 +55,20 @@ NorthWest.cs:30
 NorthWest.cs:39
 NorthWest.cs:41
 Perimeter.cs:21
-Perimeter.cs:40
-Perimeter.cs:42
-Perimeter.cs:44
-Perimeter.cs:45
-Perimeter.cs:48
-Perimeter.cs:56
-Perimeter.cs:71
+Perimeter.cs:49
+Perimeter.cs:51
+Perimeter.cs:53
+Perimeter.cs:54
+Perimeter.cs:57
+Perimeter.cs:65
 Perimeter.cs:80
-Perimeter.cs:82
-Perimeter.cs:85
-Perimeter.cs:87
 Perimeter.cs:89
 Perimeter.cs:91
-Perimeter.cs:93
+Perimeter.cs:94
+Perimeter.cs:96
+Perimeter.cs:98
+Perimeter.cs:100
+Perimeter.cs:102
 Quadrant.cs:9
 Quadrant.cs:10
 Quadrant.cs:11
@@ -123,25 +123,25 @@ WhiteNode.cs:16
 WhiteNode.cs:29
 WhiteNode.cs:41
 WhiteNode.cs:43
----- Last slice: [Perimeter.cs - 71]
+---- Last slice: [Perimeter.cs - 80]
 BlackNode.cs:14
 BlackNode.cs:15
 GreyNode.cs:13
 GreyNode.cs:14
 Perimeter.cs:21
-Perimeter.cs:40
-Perimeter.cs:42
-Perimeter.cs:45
-Perimeter.cs:48
-Perimeter.cs:52
-Perimeter.cs:72
-Perimeter.cs:80
-Perimeter.cs:82
-Perimeter.cs:85
-Perimeter.cs:87
+Perimeter.cs:49
+Perimeter.cs:51
+Perimeter.cs:54
+Perimeter.cs:57
+Perimeter.cs:61
+Perimeter.cs:81
 Perimeter.cs:89
 Perimeter.cs:91
-Perimeter.cs:93
+Perimeter.cs:94
+Perimeter.cs:96
+Perimeter.cs:98
+Perimeter.cs:100
+Perimeter.cs:102
 Quadrant.cs:9
 Quadrant.cs:10
 Quadrant.cs:11
@@ -170,4 +170,4 @@ QuadTreeNode.cs:178
 QuadTreeNode.cs:182
 WhiteNode.cs:15
 WhiteNode.cs:16
----- Last slice: [Perimeter.cs - 72]
+---- Last slice: [Perimeter.cs - 81]

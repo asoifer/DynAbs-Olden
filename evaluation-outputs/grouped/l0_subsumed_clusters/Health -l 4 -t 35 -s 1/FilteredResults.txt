@@ -59,7 +59,6 @@ Hospital.cs:112
 Hospital.cs:113
 Hospital.cs:115
 Hospital.cs:116
-Hospital.cs:122
 List.cs:14
 List.cs:15
 List.cs:20
@@ -140,7 +139,6 @@ Village.cs:175
 Village.cs:176
 Village.cs:177
 VillageBuild.cs:20
-VillageBuild.cs:21
 VillageBuild.cs:24
 VillageBuild.cs:25
 VillageBuild.cs:27
@@ -207,7 +205,6 @@ Hospital.cs:112
 Hospital.cs:113
 Hospital.cs:115
 Hospital.cs:116
-Hospital.cs:122
 List.cs:14
 List.cs:15
 List.cs:20
@@ -286,7 +283,6 @@ Village.cs:175
 Village.cs:176
 Village.cs:177
 VillageBuild.cs:20
-VillageBuild.cs:21
 VillageBuild.cs:24
 VillageBuild.cs:25
 VillageBuild.cs:27
@@ -438,7 +434,6 @@ Village.cs:175
 Village.cs:176
 Village.cs:177
 VillageBuild.cs:20
-VillageBuild.cs:21
 VillageBuild.cs:24
 VillageBuild.cs:25
 VillageBuild.cs:27
