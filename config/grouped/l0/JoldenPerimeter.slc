@@ -9,11 +9,11 @@
     <lines>
       <FileLine>
         <file>Perimeter.cs</file>
-        <line>73</line>
+        <line>80</line>
       </FileLine>
       <FileLine>
         <file>Perimeter.cs</file>
-        <line>74</line>
+        <line>81</line>
       </FileLine>
     </lines>
     <mode>AtEndWithCriteria</mode>
@@ -33,7 +33,6 @@
     <skippedFilesInfo>SkippedFilesInfo.txt</skippedFilesInfo>
   </results>
   <customization>
-    <summaries>.\config\Annotations.xml</summaries>
     <includeControlDependencies>true</includeControlDependencies>
     <includeAllUses>true</includeAllUses>
     <staticMode>false</staticMode>
@@ -45,7 +44,7 @@
   <instances>
     <Instance>
       <parameters>
-        <string>-l 11</string>
+        <string>-l 12</string>
       </parameters>
     </Instance>
   </instances>

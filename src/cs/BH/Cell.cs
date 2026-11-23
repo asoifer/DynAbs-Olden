@@ -80,7 +80,7 @@ public class Cell : Node
 			{
 				Node r = this.subp[k];
 				if(r != null)
-					hg = r is Body ? ((Body)r).walkSubTree2(dsq / 4.0, hg) : r.walkSubTree(dsq / 4.0, hg);
+					hg = r.walkSubTree(dsq / 4.0, hg);
 			}
 		}
 		else
